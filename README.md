@@ -2,9 +2,9 @@
 AI Based Chatbot in Python
 
 ### Requirements
-    Python
-    Flask
-    Aiml
+    python
+    flask
+    aiml
     pip
 
 ## Installation
