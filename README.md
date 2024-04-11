@@ -3,7 +3,7 @@ AI Based Chatbot in Python
 
 ### Requirements
     Python
-    Flash
+    Flask
     Aiml
     pip
 
