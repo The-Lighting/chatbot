@@ -47,28 +47,25 @@
             border-bottom-right-radius: 3px;
             border-bottom-left-radius: 3px
         }
-          .container {
-            background-color: rgb(255,0,255);
-        }
           
         body {
-    background: rgb(143,198,204); /* Old browsers */
-    background: -moz-linear-gradient(-45deg, rgba(143,198,204,1) 0%, rgba(135,183,197,1) 12%, rgba(119,156,177,1) 39%, rgba(108,145,162,1) 68%, rgba(98,128,142,1) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, rgba(143,198,204,1) 0%,rgba(135,183,197,1) 12%,rgba(119,156,177,1) 39%,rgba(108,145,162,1) 68%,rgba(98,128,142,1) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, rgba(143,198,204,1) 0%,rgba(135,183,197,1) 12%,rgba(119,156,177,1) 39%,rgba(108,145,162,1) 68%,rgba(98,128,142,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8fc6cc', endColorstr='#62808e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* This ensures that the body takes up at least the full height of the viewport */
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    color: #333; /* Sets a default text color that's readable against the background */
+    font-family: Arial, sans-serif; /* Example font */
 }
         </style>
     </head>
     <body>
-        <div class="container">
             <div class="row">
-                <h3 class="text-center"><font color="white">AI Chatbot</font><small><strong>using</strong></small><font color="white">Python </font></h3>
+                <h3 class="text-center"><font color="red"> AI Chatbot</font><small><strong><font color="black"> using </font></strong></small><font color="red">Python </font></h3>
                 ​
                 <div class="col-md-4 col-md-offset-4">
                     <div id="chatPanel" class="panel panel-info">
                         <div class="panel-heading">
-                            <strong><span class="glyphicon glyphicon-globe"></span>Let's Talk (You: Green / Bot: White)</strong>
+                            <strong><span class="glyphicon glyphicon-globe"></span> Let's Talk (You: <font color="green">Green</font> / Bot: <font color="white">White</font>)</strong>
                         </div>
                         <div class="panel-body fixed-panel">
                             <ul class="media-list">
@@ -89,7 +86,6 @@
                     </div>
                 </div>
             </div>
-        </div>
         <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         <script>
