@@ -1,5 +1,5 @@
 # Chatbot
-AI Based Chatbot
+AI Based Chatbot in Python
 
 ### Requirements
     Python 2.x.x
